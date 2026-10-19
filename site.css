@@ -29,7 +29,7 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.45;b
 .sec-head h2{margin:0;color:var(--on-dark)}
 .card{background:var(--paper);color:var(--ink);border:1px solid var(--line);border-top:5px solid var(--moss);border-radius:6px 6px 12px 12px;padding:1.2rem;margin-top:1rem;box-shadow:0 10px 30px #00000040}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.card-top{display:flex;justify-content:space-between;align-items:center;gap:.5rem}
-.badge,.tag{font-size:.75rem;padding:.2rem .6rem;border-radius:999px;background:#eef3e8;border:1px solid var(--line);color:var(--moss-d)}
+.badge,.tag{font-size:.95rem;font-weight:700;padding:.3rem .8rem;border-radius:999px;background:#e3efe0;border:1.5px solid var(--moss);color:var(--moss-d);white-space:nowrap}
 .badge.dev{background:#e3efe0;border-color:var(--moss)}.badge.idea{background:#f4ecd9;border-color:#c9a876;color:#7a5a3a}
 .muted{color:var(--soft)}.small{font-size:.9rem}
 .todo{color:var(--soft);font-style:italic;background:#eef3e8;border-bottom:1px dashed var(--moss);padding:0 .25rem;border-radius:3px}
